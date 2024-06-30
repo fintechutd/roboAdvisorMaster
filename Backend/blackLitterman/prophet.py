@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 symbol = "AAPL"
 from_date = "2022-01-01"
 to_date = "2023-08-01"
-url = f"https://financialmodelingprep.com/api/v3/historical-price-full/{symbol}?from={from_date}&to={to_date}&apikey={"ZOt7h0Ycts8CwWV1YvbdNCJEBr0KUO2v"}"
+api_key = "ZOt7h0Ycts8CwWV1YvbdNCJEBr0KUO2v"
+url = f"https://financialmodelingprep.com/api/v3/historical-price-full/{symbol}?from={from_date}&to={to_date}&apikey={api_key}"
 def fetch_data(url):
     response = requests.get(url).json()
     return response
