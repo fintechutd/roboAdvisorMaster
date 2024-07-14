@@ -16,7 +16,7 @@ const ToTopButton = () => {
 
   // Function to handle showing/hiding the button based on scroll position
   const toggleVisibility = () => {
-    if (window.pageYOffset > 50) {
+    if (window.scrollY > 50) {
       setIsVisible(true); console.log('12');
     } else {
       setIsVisible(false);
