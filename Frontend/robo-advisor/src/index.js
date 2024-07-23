@@ -5,6 +5,7 @@ import App from './App';
 import Home from './Home';
 import 'react-toastify/ReactToastify.css'
 import { ToastContainer } from 'react-toastify';
+import './index.css'
 
 import {
   createBrowserRouter,
