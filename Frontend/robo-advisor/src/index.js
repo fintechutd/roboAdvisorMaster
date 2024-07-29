@@ -1,11 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
 import App from './App';
 import Home from './Home';
-import 'react-toastify/ReactToastify.css'
+import 'react-toastify/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
-import './index.css'
 
 import {
   createBrowserRouter,

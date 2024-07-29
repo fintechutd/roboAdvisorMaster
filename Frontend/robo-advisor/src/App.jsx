@@ -14,7 +14,7 @@ function App() {
         </Login>
       </div>
       </div>
-      
+      <h1 className=" text-red-700">Hello</h1>
     </div>
   )
 }

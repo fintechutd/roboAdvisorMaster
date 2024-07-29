@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "7dd7"
+    },
+    {
+      "id": "9b7c",
+      "firstName": "Ayman",
+      "lastName": "Haque",
+      "email": "sup@gmail.com",
+      "password": "sup"
+    },
+    {
+      "id": "d3c6",
+      "firstName": "newAcc",
+      "lastName": "Ount",
+      "email": "new@gmail.com",
+      "password": "new"
+    },
+    {
+      "id": "67bd",
+      "firstName": "Muhd",
+      "lastName": "Haque",
+      "email": "muhd.ayman.haque@gmail.com",
+      "password": "dsafgadsfgdf"
+    }
+  ]
+}
