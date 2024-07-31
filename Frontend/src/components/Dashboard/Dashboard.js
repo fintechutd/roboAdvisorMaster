@@ -10,7 +10,7 @@ import "../../App.css"; // Import CSS for styling the button
 function Dashboard() {
   return (
     <>
-      <NavBar />
+      <NavBar/>
       <ToTopButton />
       
       <div className="three-columns-container"> 
@@ -50,7 +50,7 @@ function Dashboard() {
           <h1 className="text-3xl font-semibold mt-35">
             VISUALIZATION
           </h1>
-          <img src={process.env.PUBLIC_URL + '/piegraph.png'} alt="Pie Graph" className="w-30 h-30"  style={{ marginRight: '20px', marginTop: '90px' }}/>
+          <img src={process.env.PUBLIC_URL + '../../../piegraph.png'} alt="Pie Graph" className="w-30 h-30"  style={{ marginRight: '20px', marginTop: '90px' }}/>
         </div>
       </div>
       
