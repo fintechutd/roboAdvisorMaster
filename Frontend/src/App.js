@@ -4,6 +4,7 @@ import Login from './components/Login'
 import Logo from './components/Logo'
 import './index.css'
 import Questionnaire from './components/Questionnaire/Questionnaire'
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
 
@@ -11,7 +12,9 @@ function App() {
     <Router>
       <Routes>
         
-        <Route path='/' element={<Questionnaire/>}></Route>
+        <Route path='/questionnaire' element={<Questionnaire/>}></Route>
+        <Route path='/dashboard' element={<Dashboard/>}></Route>
+
       </Routes>
     </Router>
   )
