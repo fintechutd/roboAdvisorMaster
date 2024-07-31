@@ -4,6 +4,7 @@ import NavBar from "./NavBar.js";
 import Table from "./Table.js";
 import ToTopButton from "./ToTopButton.js";
 import { BrowserRouter as Router } from "react-router-dom";
+import "../../App.css"; // Import CSS for styling the button
 
 
 function Dashboard() {
